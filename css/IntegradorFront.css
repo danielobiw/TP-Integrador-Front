@@ -1,0 +1,842 @@
+
+
+/* AJUSTES GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+/* FIN AJUSTES GENERALES */
+
+/* ENCABEZADO Y NAVEGACION */
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navegacion{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    margin: 0% !important;
+}
+
+.itemnav{
+    display: block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conferencia{
+    color: #FFFFFF;
+}
+
+.oradores, .lugaryfecha, .conviertete{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/* FIN ENCABEZADO Y NAVEGACION */
+
+/* PORTADA*/
+.portada{
+    margin: 0;
+    background-image: url('../img/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.portada2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15% 7% 10% 20%;
+}
+
+.tituloPortada, .textoPortada{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.Boton1{
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
+.Boton1:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #FFFFFF;
+}
+
+.Boton2{
+    background-color: #28B463;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #28B463;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
+.Boton2:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+/* FIN PORTADA */
+
+/* ORADORES */
+main{
+    margin-bottom: 12px;
+}
+
+.p2{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.h2{
+    text-align: center;
+}
+
+.blanco{
+    color: #FFFFFF;
+}
+
+.JavaScript{
+    background-color: #F4D03F;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #F4D03F;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #000000;
+}
+
+.React{
+    background-color: #73C6B6;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #73C6B6;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
+.Negocios{
+    background-color: #707B7C;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #707B7C;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
+.Startups{
+    background-color: #E74C3C;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E74C3C;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+}
+
+.orador1, .orador2, .orador3{
+    display: inline-block;
+    padding-bottom: 12px ;
+    margin-bottom: 12px;
+}
+/* FIN ORADORES */
+
+/* CONOCE MAS */
+.conoce:hover{
+    background-color: #A6ACAF;
+    border-color: #A6ACAF;
+}
+/* FIN CONOCE MAS */
+
+/* FORMULARIO */
+.section3{
+    margin-bottom: 16px;
+}
+
+.p4{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.p5{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.containerFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.nombres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.name{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.apellido{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.nachname{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+
+.textarea2{
+    width: 80%;
+}
+
+.area{
+    display: inline-block;
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
+
+.recuerdo{
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    color: #A6ACAF;
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-left: 10%;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.enviar:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+/* FIN FORMULARIO */
+
+/* FOOTER */
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: block;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 0px;
+}
+/* FIN FOOTER */
+
+
+
+
+/* MEDIA QUERYS */
+
+@media screen and (min-width: 576px) and (max-width: 1080px){
+
+/*ENCABEZADO*/
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column !important;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin: 0% !important;
+    display: inline-block;
+}
+
+.navegacion{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0% !important;
+}
+
+.itemnav{
+    display: inline-block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conferencia{
+    color: #FFFFFF;
+}
+
+.oradores, .lugaryfecha, .conviertete{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/*FIN ENCABEZADO*/
+
+/*PORTADA*/
+.portada{
+    margin: 0;
+    background-image: url('../img/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.portada2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15% 7% 10% 20%;
+}
+
+.tituloPortada, .textoPortada{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+/*FIN PORTADA*/
+
+/*ORADORES*/
+main{
+    justify-content: center;
+}
+
+.containerOradores{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloOradores{
+    text-align: center;
+    color: #000000;
+}
+
+.p2{
+    margin: 12px 0px 0px;
+}
+
+.rowOradores{
+    padding: 0% 8% 12px;
+    display: flex;
+}
+
+.orador1, .orador2, .orador3{
+    display: inline-block;
+    padding-bottom: 12px ;
+}
+/*FIN ORADORES*/
+
+/*FORMULARIO*/
+.section3{
+    justify-content: center;
+}
+
+.containerFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloFormulario{
+    text-align: center;
+    color: #000000;
+}
+
+.p4{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+/*FIN FORMULARIO*/
+
+/*FOOTER*/
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: inline-block;
+    text-justify: center;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 30px;
+}
+/*FIN FOOTER*/
+}
+
+
+@media screen and (min-width: 980px){
+    /*CONOCE MAS*/
+    .descripcion{
+        border-left: 1px solid #FFFFFF;
+    }
+    /*FIN CONOCE MAS*/
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 980px){
+
+/*CONOCE MAS*/
+.ciudad{
+    margin-inline: 0%;
+    border-top: 1px solid #2D353A;
+    flex-direction: column;
+}
+
+.imagen{
+    padding-inline: 0%;
+    border-top: 1px solid #FFFFFF;
+    width: 100%;
+}
+
+.descripcion{
+    border-top: 1px solid #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2D353A;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.p3{
+    color:#FFFFFF;
+}
+
+u{
+    text-decoration-style: dotted
+}
+
+sup{
+    color: #FFFFFF;
+}
+
+.conoce{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 0.25rem;
+    padding: 1%;
+    background-color: #2D353A;
+    color: #FFFFFF;
+}
+/*FIN CONOCE MAS*/
+
+/* FOOTER */
+.rowFooter{
+    min-width: 100%;
+}
+}
+/* FIN FOOTER */
+
+
+@media screen and (min-width: 768px){
+
+/*ENCABEZADO*/
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.navegacion{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 6% !important;
+}
+
+.itemnav{
+    display: inline-block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conferencia{
+    color: #FFFFFF;
+}
+
+.oradores, .lugaryfecha, .conviertete{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/*FIN ENCABEZADO*/
+
+/*PORTADA*/
+.portada{
+    margin: 0;
+    background-image: url('../img/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.portada2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15% 7% 10% 60%;
+}
+
+.tituloPortada, .textoPortada{
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.botones{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+/*FIN PORTADA*/
+
+/*ORADORES*/
+main{
+    justify-content: center;
+}
+
+.containerOradores{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloOradores{
+    text-align: center;
+    color: #000000;
+}
+
+.p2{
+    margin: 12px 0px 0px;
+}
+
+.rowOradores{
+    padding: 0% 8% 12px;
+    display: flex;
+}
+
+.orador1, .orador2, .orador3{
+    display: inline-block;
+    padding-bottom: 12px ;
+}
+/*FIN ORADORES*/
+
+/*CONOCE MAS*/
+.ciudad{
+    margin-inline: 0%;
+    border-top: 1px solid #2D353A;
+}
+
+.imagen{
+    padding-inline: 0%;
+    border-top: 1px solid #FFFFFF;
+}
+
+.descripcion{
+    border-top: 1px solid #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #2D353A;
+    color: #FFFFFF;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+}
+
+.p3{
+    color:#FFFFFF;
+}
+
+u{
+    text-decoration-style: dotted
+}
+
+sup{
+    color: #FFFFFF;
+}
+
+.conoce{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-radius: 0.25rem;
+    padding: 1%;
+    background-color: #2D353A;
+    color: #FFFFFF;
+}
+/*FIN CONOCE MAS*/
+
+/* FORMULARIO */
+.nombres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.nombre{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 23%;
+}
+
+.name{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.apellido{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 25%;
+}
+
+.nachname{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.textarea{
+    display: flex;
+    justify-content: center;
+}
+
+.textarea2{
+    width: 50%;
+}
+
+.area{
+    display: inline-block;
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+textarea::placeholder{
+    font-size: 20px;
+}
+
+.recuerdo{
+    display: flex;
+    justify-content: start;
+    justify-items: center;
+    color: #A6ACAF;
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-left: 25%;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    padding: 1%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.enviar:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+/* FIN FORMULARIO */
+
+/*FOOTER*/
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: inline-block;
+    text-justify: center;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 30px;
+}
+/*FIN FOOTER*/
+}
+
+/* FIN MEDIA QUERYS */
+
+
+
+/* REFERENCIAS
+-PARA CUADRAR LA IMAGEN DE FONDO: https://pixonauta.com/ajustar-imagenes-al-tamano-del-contenedor-con-css/
+*/
+
+
+
