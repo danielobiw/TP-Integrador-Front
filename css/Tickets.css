@@ -1,0 +1,735 @@
+
+
+/* AJUSTES GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+/* FIN AJUSTES GENERALES */
+
+/* ENCABEZADO Y NAVEGACION */
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navegacion{
+    display: block;
+    align-content: center;
+    justify-content: center;
+    margin: 0% !important;
+}
+
+.itemnav{
+    display: block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conviertete{
+    color: #FFFFFF;
+}
+
+.conferencia, .oradores, .lugaryfecha{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/* FIN ENCABEZADO Y NAVEGACION */
+
+/* CATEGORIAS */
+.categorias{
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    place-items: center;
+    margin-top: 30px;
+    gap: 1%;
+}
+
+.Estudiante{
+    border: 2px solid #003EFF;
+    width: 90%;
+    text-align: center;
+}
+
+.Trainee{
+    border: 2px solid #00CB16;
+    width: 90%;
+    text-align: center;
+}
+
+.Junior{
+    border: 2px solid #F4D03F;
+    width: 90%;
+    text-align: center;
+}
+/* FIN CATEGORIAS */
+
+/* FORMULARIO */
+.section3{
+    margin-bottom: 16px;
+}
+
+.p4{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.p5{
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.h2{
+    text-align: center;
+}
+
+.containerFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    justify-content: center;
+}
+
+.nombres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nombre{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.name{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 1% 2% 1%;
+}
+
+.apellido{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.nachname{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 1% 2% 1%;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.email2{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.email3{
+    width: 100%;
+    display: inline-block;
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    padding: 1% 2% 1%;
+}
+
+.maximo{
+    font-size: 70%;
+    color: #A6ACAF;
+}
+
+.combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cantidad{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.cantidad2{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 1% 2% 1%;
+}
+
+.desplegable{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 80%;
+}
+
+.categoria{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 1% 2% 1%;
+}
+
+.Total{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.TotalPagar{
+    display: inline-block;
+    width: 80%;
+    padding: 1% 2% 1%;
+    background-color: #AED6F1;
+    border-style: solid;
+    border-color: #85C1E9;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    color: #21618C;
+}
+
+.valorPagar{
+    color: #21618C;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 2rem;
+}
+
+.borrar{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    width: 39%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.borrar:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+
+.resumen{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    width: 39%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.resumen:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+/* FIN FORMULARIO */
+
+/* FOOTER */
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: block;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 0px;
+}
+/* FIN FOOTER */
+
+
+/* MEDIA QUERYS */
+
+@media screen and (min-width: 400px){
+
+/* CATEGORIAS */
+.categorias{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 1%;
+}
+
+.Estudiante{
+    border: 2px solid #003EFF;
+    width: 30%;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.Trainee{
+    border: 2px solid #00CB16;
+    width: 30%;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.Junior{
+    border: 2px solid #F4D03F;
+    width: 30%;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+/* FIN CATEGORIAS */
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1080px){
+
+/*ENCABEZADO*/
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column !important;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin: 0% !important;
+    display: inline-block;
+}
+
+.navegacion{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0% !important;
+}
+
+.itemnav{
+    display: inline-block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conviertete{
+    color: #FFFFFF;
+}
+
+.conferencia, .oradores, .lugaryfecha{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/*FIN ENCABEZADO*/
+
+
+/*FORMULARIO*/
+.section3{
+    justify-content: center;
+}
+
+.containerFormulario{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloFormulario{
+    text-align: center;
+    color: #000000;
+}
+
+.p4{
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+/*FIN FORMULARIO*/
+
+/*FOOTER*/
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: inline-block;
+    text-justify: center;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 30px;
+}
+/*FIN FOOTER*/
+}
+
+
+@media screen and (min-width: 768px){
+
+/*ENCABEZADO*/
+header{
+    background-color: #2D353A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo{
+    margin-left: 6%;
+    display: inline-block;
+}
+
+.navegacion{
+    display: inline-block;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 6% !important;
+}
+
+.itemnav{
+    display: inline-block;
+    text-justify: auto;
+    text-align: center;
+    padding: 0%;
+    margin: 12px;
+}
+
+.conviertete{
+    color: #FFFFFF;
+}
+
+.conferencia, .oradores, .lugaryfecha{
+    color: #99A3A4;
+}
+
+.tickets{
+    color: #28B463;
+}
+/*FIN ENCABEZADO*/
+
+/* CATEGORIAS */
+.categorias{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 1%;
+}
+
+.Estudiante{
+    border: 2px solid #003EFF;
+    /* width: 16%; */
+    width: 240px;
+    height: fit-content;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.Trainee{
+    border: 2px solid #00CB16;
+    /* width: 16%; */
+    width: 240px;
+    height: fit-content;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.Junior{
+    border: 2px solid #F4D03F;
+    /* width: 16%; */
+    width: 240px;
+    height: fit-content;
+    display: inline-block;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+/* FIN CATEGORIAS */
+
+/* FORMULARIO */
+.tituloFormulario{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.nombres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.nombre{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 24%;
+}
+
+.name{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 2% 4% 2%;
+}
+
+.apellido{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 24%;
+}
+
+.nachname{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 2% 4% 2%;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+.email2{
+    margin-bottom: 16px;
+    width: 50%;
+}
+
+.email3{
+    width: 100%;
+    display: inline-block;
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    padding: 1% 2% 1%;
+}
+
+.combo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.cantidad{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 24%;
+}
+
+.cantidad2{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 2% 4% 2%;
+    margin-top: 2%;
+}
+
+.desplegable{
+    margin-bottom: 16px;
+    display: inline-block;
+    width: 24%;
+}
+
+.categoria{
+    border:1px solid #A6ACAF;
+    border-radius: 0.25rem;
+    width: 100%;
+    padding: 2% 4% 2%;
+    margin-top: 2%;
+}
+
+.Total{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.TotalPagar{
+    display: inline-block;
+    width: 50%;
+    padding: 1% 2% 1%;
+    background-color: #AED6F1;
+    border-style: solid;
+    border-color: #85C1E9;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    color: #21618C;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    gap: 2%;
+    margin-bottom: 2rem;
+}
+
+.borrar{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    width: 24%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.borrar:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+
+.resumen{
+    background-color: #B3DC3B;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B3DC3B;
+    border-radius: 0.25rem;
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    width: 24%;
+    font-size: 18px;
+    padding: 0.5%;
+}
+
+.resumen:hover{
+    background-color: #1D8348;
+    border-color: #1D8348;
+}
+/* FIN FORMULARIO */
+
+/*FOOTER*/
+footer{
+    background-color: #21618C;
+    background: linear-gradient(to right, #212F3C, #21618C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+}
+
+.rowFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0%;
+}
+
+.itemFooter{
+    display: inline-block;
+    text-justify: center;
+    text-align: center;
+    padding: 0%;
+    margin: 12px 30px;
+}
+/*FIN FOOTER*/
+}
+
+/* FIN MEDIA QUERYS */
+
+
+
+/* REFERENCIAS */
+
+
+
